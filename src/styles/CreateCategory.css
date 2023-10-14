@@ -1,0 +1,13 @@
+#create-category-delete {
+  background-color: #d90429;
+  color: wheat;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+#create-category-edit {
+  background-color: wheat;
+  color: black;
+  font-weight: 600;
+  border: 1px solid black;
+}

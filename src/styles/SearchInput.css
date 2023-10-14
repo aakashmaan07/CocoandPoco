@@ -1,0 +1,27 @@
+::placeholder {
+  color: black !important;
+}
+
+.form-control {
+  background-color: white !important;
+  border: 1px solid #dd19c0;
+  color: black !important;
+  width: 600px;
+}
+
+.btn {
+  color: white;
+  border: 1px solid black;
+  background-color: #8946a6;
+}
+
+.btn:hover {
+  background: linear-gradient(to right, white, #ea99d5, #b762c1, #8946a6);
+  color: black;
+  font-weight: 600 !important;
+}
+.container {
+  display: flex;
+  align-items: center;
+  /* margin-right: 175px; */
+}

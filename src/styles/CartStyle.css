@@ -1,0 +1,66 @@
+.cart-page {
+  padding-top: 80px;
+}
+
+.cart-page h1 {
+  padding: 15px !important;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  background-color: #161616 !important;
+  color: #d9ed92;
+  /* background-color: #99d98c !important; */
+}
+.cart-page h1 > p {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #d9ed92;
+}
+
+.cart-page .card {
+  padding: 5px !important;
+  height: 215px !important;
+  margin-bottom: 5px !important;
+  background-color: #d9ed92;
+}
+.cart-page .cart-remove-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-page .cart-summary {
+  text-align: center;
+  background-color: #d9ed92;
+  /* margin-top: -140px !important; */
+}
+
+#remove-button {
+  background-color: #d90429;
+  color: wheat;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+#remove-button:hover {
+  font-weight: 900 !important;
+}
+
+#update-address {
+  background-color: #ffff33;
+  color: black;
+  font-weight: 600 !important;
+  border: 1px solid black;
+}
+#update-address:hover {
+  font-weight: 800 !important;
+}
+#payment-button {
+  background-color: limegreen;
+  border: 1px solid black;
+  color: black;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+#payment-button:hover {
+  font-weight: 900;
+}

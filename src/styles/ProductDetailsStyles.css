@@ -1,0 +1,113 @@
+.product-details {
+  /* margin-top: 100px !important; */
+  padding-top: 100px;
+}
+
+.product-details-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.product-details-info h1 {
+  color: orange;
+  filter: contrast(150%);
+  font-weight: 800;
+}
+
+.product-details-info h6 {
+  margin-bottom: 20px !important;
+  font-weight: 700;
+  color: black;
+}
+
+.similar-products h4 {
+  color: black;
+  filter: contrast(150%);
+}
+
+.similar-products .card {
+  /* background-color: rgba(128, 128, 128, 0.097); */
+  background-color: white;
+  width: 18rem;
+  border: 1px solid #ffff33;
+}
+
+.similar-products .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.similar-products .card-price {
+  color: green;
+  font-weight: bold;
+}
+.similar-products button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: darkorange;
+  color: antiquewhite;
+  border: 1px solid black;
+}
+
+.similar-products .card-title {
+  /* color: #00ff00; */
+  color: #0d3b66;
+}
+
+.similar-products .card-text {
+  /* color: #00ff00; */
+  color: #0d3b66;
+}
+
+.similar-products .card img:hover {
+  transform: scale(0.9);
+}
+
+.similar-products .card-img-top {
+  height: 300px !important;
+}
+
+.product-details-info button {
+  background-color: #8946a6;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+}
+
+.btn-card {
+  width: 9em;
+  height: 3em;
+  /* border-radius: 30em; */
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.btn-card::before {
+  content: "";
+  width: 0;
+  height: 3em;
+  /* border-radius: 30em; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: 0.5s ease;
+  display: block;
+  z-index: -1;
+}
+
+.btn-card:hover::before {
+  width: 100%;
+}
